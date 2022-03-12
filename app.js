@@ -6,7 +6,7 @@ ageInput.addEventListener("keyup", () => {
   if (inputVal.length > 0 && inputVal.length < 5) {
     let date = new Date();
     let personAge = date.getFullYear() - inputVal;
-    res.innerHTML = `Your are ${personAge} year's Old &#128513;`;
+    res.innerHTML = `You are ${personAge} year's Old &#128513;`;
   } else if (inputVal.length < 1) {
     res.innerHTML = `Enter and let me guess Your Age &#129300;`;
   } else {
